@@ -14,6 +14,8 @@ function D(f, x)
     return (Devf(f, x, n), n)
 end
 
+## Integration with the simpson method
+
 function I(f, a, b)
     n = 10
     error = 1.0
